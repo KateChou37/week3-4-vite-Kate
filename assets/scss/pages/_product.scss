@@ -1,0 +1,132 @@
+.bi{
+    font-size: 18px;
+}
+.btn-call{
+    padding: 12px 24px;
+    color: $neutral-color-white;
+    background-color: $neutral-color-900;
+    border-radius: 4px;
+}
+.banner{
+    background-color: $primary-color-200;
+}
+.product-card-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -4px;
+    margin-left: -4px;
+}
+.product-card-col{
+    width: 50%;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+@media (max-width:767px){
+.product-card-md-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -4px;
+    margin-left: -4px;
+    .product-card-md-col{
+    width: 100%;
+    padding-right: 4px;
+    padding-left: 4px;
+    }
+    }
+}
+/* ---麵包屑--- */
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "/";
+    color: $neutral-color-300;
+    padding: 0px 12px;
+}
+.breadcrumb-item a{
+    color: $neutral-color-600;
+}
+.breadcrumb-item .active{
+    color: $neutral-color-900;
+}
+
+
+/* product 描述-價格 */
+.price{
+    color: $primary-color-400;
+}
+.price-del{
+    color: $neutral-color-500;
+}
+/* product-color 顏色 */
+.product-color{
+    width: 64px;
+}
+.product-color p{
+    color: $neutral-color-600;
+}
+/*  product 尺寸 */
+.inches{
+    width: 160px;
+    padding: 12px 24px;
+    outline: 1px solid $neutral-color-300;
+    border-radius: 4px;
+}
+.inches{
+    .active{
+    outline: 1px solid $neutral-color-900;
+    }
+    &:hover{
+    outline: 1px solid $neutral-color-900;
+    }
+}
+.desable{
+    color: $neutral-color-900;
+    opacity :50%;
+}
+.functional{
+    color: $functional-danger-300;
+}
+
+.out-line-btn{
+    border: 1px solid $neutral-color-900;
+    width: 50%;
+    padding: 12px 0px;
+}
+/* 產品---按鈕 */
+.primary-btn{
+    color: $neutral-color-white;
+    background-color: $neutral-color-900;
+    width: 50%;
+    padding: 12px 0px;
+    .bi-heart{
+    font-size: 20px;
+    }
+    .bi-handbag{
+    font-size: 20px;
+    }
+}
+@media (max-width:767px){
+    .primary-btn{
+    width: 100%;
+    margin-right: 8px;
+    }
+    .out-line-btn{
+    width: 48px;
+    border: none;
+    }
+    .col-7{
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
+}
+/* ---產品-購買須知--- */
+.product-menu{
+    padding: 12px 0px;
+    border-bottom: 1px solid $neutral-color-300;  
+     p{
+        color: $neutral-color-600;
+    }
+}
+/* --- banner--- */
+.banner .bg{
+    background-color: $neutral-color-white;
+}

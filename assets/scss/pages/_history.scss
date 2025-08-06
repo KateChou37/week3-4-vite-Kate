@@ -1,0 +1,45 @@
+
+.header{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: $neutral-color-white;
+    text-align: center;
+}
+@media (max-width:575px) {
+    .header{
+     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true);
+     padding: 87px 0px;   
+    }
+}
+
+ /* ----導覽列--- */
+
+
+.border-b{
+    border-bottom: 1px solid $neutral-color-300;
+}
+.brand-history-desc{
+    border-left: 1px solid $neutral-color-900;
+
+}
+.brand-history-list {
+    list-style: disc;
+    padding-left: 24px;
+    
+}
+.brand-concept {
+    li{
+    border-left: 3px solid $neutral-color-300;
+    padding-left: 12px;
+}
+  
+}
+
+.brand-story {
+    .bi{
+    padding-right: 8px ;
+    vertical-align: middle;
+    }
+}

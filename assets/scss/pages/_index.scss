@@ -1,0 +1,137 @@
+.hero-banner{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .hero-text{
+        margin-left: 200px;
+        padding-top: 289px;
+        padding-bottom: 288px;
+        .btn{
+        background-color: $primary-color-300 ;
+        padding: 12px 24px;
+    }
+
+    }
+}
+.New-Arrival{
+    gap: 40px 0px;
+}
+
+
+
+
+.hot-card{
+    position: relative;
+    .card-text{
+        position: absolute;
+        top: 0;
+        left: 12;
+        padding: 8px 12px;
+        background-color: $primary-color-100;
+        color: $primary-color-400;
+    }
+}
+.banner-sale{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0px;
+    position: relative;
+    .product-color{
+        color: $primary-color-300;
+    }
+    .btn{
+        background-color: $primary-color-300 ;
+        padding: 12px 24px;
+    }
+    .img-star{
+        position: absolute;
+        width: 48px;
+        top: 68px;
+        left: calc(50% - 397px);
+    }
+    .img-sparkle{
+        position: absolute;
+        width: 76px;
+        bottom: 132px;
+        right: calc( 50% - 357px);
+    }
+
+}
+
+.serices{
+    position: relative;
+    .serices-text{
+        position: absolute;
+        background-color: rgba( $neutral-color-900, $bg-opacity) ;
+        color: $neutral-color-white;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width:767px) {
+     .menu-md{
+        li{
+            width: 50%;
+            text-align: center; }
+            .product-btn{
+                background-color: $primary-color-200;
+                }
+            .history-btn{
+                background-color: $primary-color-100;
+                }
+            }
+    .hero-banner-md{
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        .hero-text-md{
+            margin-left: 12px;
+            padding: 155px 0px;
+    }
+    }
+    .New-Arrival-md{
+        gap:24px 0px;
+    }
+    .banner-sale{
+         background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true);
+    .img-star{
+        position: absolute;
+        width: 48px;
+        top: 68px;
+        left: calc(50% - 239.5px);
+    }
+    .img-sparkle{
+        position: absolute;
+        width: 76px;
+        bottom: 104px;
+        right: calc( 50% - 213px);
+    }
+        }
+    .content-col-4,
+    .content-col-6,
+    .content-col-12{
+        width: unset;
+        padding: 0px 8px;
+        
+    }
+    .content-row{
+        flex-wrap: nowrap;
+        margin: 0px -8px;
+        img{
+            min-width: 300px;
+            }
+        }
+}
+

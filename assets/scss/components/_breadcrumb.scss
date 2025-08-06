@@ -1,0 +1,15 @@
+   
+.breadcrumb-item {
+    +.breadcrumb-item::before{
+        content: "/";
+        color: $neutral-color-300;
+        padding: 0px 12px;
+    }
+
+    a{
+        color: $neutral-color-600;
+    }
+    &.active{
+        color: $neutral-color-900;
+    }
+}

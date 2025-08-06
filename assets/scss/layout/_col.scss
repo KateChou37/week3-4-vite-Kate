@@ -1,0 +1,150 @@
+/* 格線系統 */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+.col-1{
+    padding-right: 12px ;
+    padding-left: 12px ;
+    width: calc(100% /12*1);
+    
+}
+.col-2{
+    padding-right: 12px ;
+    padding-left: 12px ;
+    width: calc(100% /12*2);
+    
+}
+.col-3{
+    padding-right: 12px ;
+    padding-left: 12px ;
+    width: calc(100% /12*3);
+    
+}
+.col-4{
+    padding-right: 12px ;
+    padding-left: 12px ;
+    width: calc(100% /12*4);
+    
+}
+.col-5{
+    padding-right: 12px ;
+    padding-left: 12px ;
+    width: calc(100% /12*5);
+    
+}
+.col-6{
+    padding-right: 12px ;
+    padding-left: 12px ;
+    width: calc(100% /12*6);
+    
+}
+.col-7{
+    padding-right: 12px ;
+    padding-left: 12px ;
+    width: calc(100% /12*7);
+    
+}
+.col-8{
+    padding-right: 12px ;
+    padding-left:12px ;
+    width: calc(100% /12*8);
+    
+}
+.col-9{
+    padding-right: 12px ;
+    padding-left: 12px ;
+    width: calc(100% /12*9);
+    
+}
+.col-10{
+    padding-right: 12px ;
+    padding-left: 12px ;
+    width: calc(100% /12*10);
+    
+}
+.col-11{
+    padding-right: 12px ;
+    padding-left: 12px ;
+    width: calc(100% /12*11);
+    
+}
+.col-12{
+    padding-right: 12px ;
+    padding-left: 12px ;
+    width: 100%;
+    
+}
+.content-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -4px;
+}
+.content-col-4{
+    width: calc(100% / 12*4);
+    padding: 4px;
+}
+.content-col-6{
+    width: calc(100% / 12*6);
+    padding: 4px;
+}
+.content-col-12{
+    width: 100%;
+    padding: 4px;
+}
+@media (max-width:767px){
+    .row-md{
+    display: flex;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+    .col-md-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 4*2);
+}
+    .col-md-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100% ;
+}
+    .product-md-row{
+       flex-wrap: nowrap;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .product-md-col{
+        min-width: 316px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .card-md-row{
+        padding-left: -6px;
+        padding-right: -6px;
+    }
+    .card-md-col-2{
+        padding-left: 6px;
+        padding-right: 6px;
+        width: calc(100% / 4*2);
+    }
+
+}
+@media (max-width:575px){
+    .row-sm{
+    display: flex;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+    .col-sm-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 4*2);
+}
+    .col-sm-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100% ;
+}
+}

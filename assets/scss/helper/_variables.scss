@@ -1,0 +1,68 @@
+    $primary-color-100: #F5FEE7;
+    $primary-color-200: #E8FEC5;
+    $primary-color-300: #C0FA73;
+    $primary-color-400: #57A203;
+    $primary-color-500: #477A11;
+    $neutral-color-white: #FFFFFF;
+    $neutral-color-100: #F8F9FA;
+    $neutral-color-200: #E9ECEF;
+    $neutral-color-300: #DEE2E6;
+    $neutral-color-400: #CED4DA;
+    $neutral-color-500: #ADB5BD;
+    $neutral-color-600: #6C757D;
+    $neutral-color-700: #495057;
+    $neutral-color-800: #030303;
+    $neutral-color-900: #212529;
+    $functional-danger-100: #FCF1F1;
+    $functional-danger-200: #EBA7A7;
+    $functional-danger-300: #D74F4F;
+    $functional-warning-100: #FEF6EC;
+    $functional-warning-200: #F9C588;
+    $functional-warning-300: #F38B12;
+    $functional-success-100: #EFF8F4;
+    $functional-success-200: #9AD1BA;
+    $functional-success-300: #36A375;
+    $functional-info-100: #EEF5FC;
+    $functional-info-200: #97C3ED;
+    $functional-info-300: #3087DB;
+    $border-radius-sm: 4px;
+    $border-radius-md: 12px;
+    $border-radius-rounded: 1000px;
+    $bg-opacity: 0.4;
+
+
+/* 文字通用樣式*/
+
+.text-primary{
+    color: $neutral-color-900;
+}
+.text-primary-400{
+    color: $primary-color-400;
+}
+.text-secondary{
+    color: $neutral-color-600;
+}
+.text-muted{
+    color: $neutral-color-500;
+}
+.text-highlight{
+    color: $primary-color-400;
+}
+.text-primary-300{
+    color: $primary-color-300;
+}
+.text-on-dark{
+    color: $neutral-color-white;
+}
+
+/*圓角通用樣式  */
+
+.border-radius-sm{
+    border-radius: $border-radius-sm;
+} 
+.border-radius-md{
+    border-radius: $border-radius-md;
+}
+.border-radius-rounded{
+    border-radius: $border-radius-rounded;
+}

@@ -1,0 +1,44 @@
+    /* ----導覽列--- */
+.bi{
+    font-size: 18px;
+}
+/* --- 麵包屑 --- */
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "/";
+    color: $neutral-color-300;
+    padding: 0px 12px;
+}
+.breadcrumb-item .active{
+    color: $neutral-color-600;
+}
+/* ---banner--- */
+.btn-call{
+    padding: 12px 24px;
+    color: $neutral-color-white;
+    background-color: $neutral-color-900;
+    border-radius: 4px;
+}
+.banner{
+    background-color: $primary-color-200;
+}
+/* -- pagination -- */
+.active{
+    color: $primary-color-400;
+}
+.bi-chevron-left{
+    font-size: 16px;
+    padding: 4px;
+    margin: 10px;
+}
+.bi-chevron-right{
+    font-size: 16px;
+    padding: 4px;
+    margin: 10px;
+}
+.pagination li .p12-16{
+    padding: 12px 16px;
+}
+.pagination li .active{
+    color: $neutral-color-900;
+    background-color: $primary-color-300;
+}

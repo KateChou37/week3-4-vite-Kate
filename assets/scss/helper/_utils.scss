@@ -1,0 +1,465 @@
+
+.mt-48{
+    margin-top: 48px;
+}
+.mt-32{
+    margin-top: 32px;
+}
+.mt-16{
+    margin-top: 16px;
+}
+.mt-12{
+    margin-top: 12px;
+}
+.mt-4{
+    margin-top: 4px;
+}
+/* 通用推外推模式 */
+.mb-4{
+    margin-bottom: 4px;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+.mb-64{
+    margin-bottom: 64px;
+}
+
+/* 通用往外面右推模式 */
+.me--12{
+    margin-right: -12px;
+}
+.me-8{
+    margin-right: 8px;
+}
+.me-12{
+    margin-right: 12px;
+}
+.me-24{
+    margin-right: 24px;
+}
+.me-40{
+    margin-right: 40px;
+}
+.me-48{
+    margin-right: 48px;
+}
+/* 通用往外面左推模式 */
+.ms-auto{
+    margin-left: auto;
+}
+.ms--12{
+    margin-left: -12px;
+}
+/* 通用往外面上下推模式 */
+.my-16{
+    margin: 16px 0px;
+}
+.my-24{
+    margin: 24px 0px;
+}
+.my-32{
+    margin: 32px 0px;
+}
+
+/* 通用內推模式 -向四面往內推*/
+.p-12{
+    padding: 12px;
+}
+.p-32{
+    padding: 32px;
+}
+/* 通用內推模式 -向上*/
+.pt-48{
+    padding-top: 48px;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.pt-32{
+    padding-top: 32px;
+}
+
+/* 通用內推模式 -向上下*/
+.py-2{
+    padding: 2px 0px;
+}
+.py-5{
+    padding: 5px 0px;
+}
+.py-7{
+    padding: 7px 0px;
+}
+.py-8{ 
+    padding: 8px 0px;
+}
+.py-9-5{
+    padding: 9.5px 0px;
+}
+.py-12{
+    padding: 12px 0px;
+}
+.py-16{
+    padding: 16px 0px;
+}
+.py-24{
+    padding: 24px 0px;
+}
+.py-48{
+    padding: 48px 0px;
+}
+.py-64{
+    padding: 64px 0px;
+}
+.py-150{
+    padding: 150px;
+}
+/* 通用內推模式 -向下*/
+.pb-48{
+    padding-bottom: 48px;
+}
+/* 通用內推模式 -向右*/
+.pe-8{
+    padding-right: 8px;
+}
+.pe-12{
+    padding-right: 12px;
+}
+.pe-24{
+    padding-right: 24px;
+}
+/* 通用內推模式 -向左*/
+.ps-8{
+    padding-left: 8px;
+}
+.ps-12{
+    padding-left: 12px;
+}
+.ps-24{
+    padding-left: 24px;
+}
+
+
+/* 顏色、背景 */
+.background-color{
+    background-color: $neutral-color-white;
+}
+.background-color-primary-100{
+    background-color: $primary-color-100;
+}
+.banner-background-color{
+    border-color: $primary-color-200;
+}
+
+/* 文字樣式（Typography） */
+.display-1{
+    font-size:64px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.display-2{
+    font-size: 48px;
+    line-height:1.2 ;
+    font-weight: 700;
+}
+.h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.h2{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.h3{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.h4{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.h5{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.h6{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.label-20{
+    font-size: 20px;
+    font-weight: 500;
+}
+.label-md{
+    font-weight: 500;
+}
+.label-sm{
+    font-weight: 500;
+    font-size: 14px;
+}
+.label-12{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.text-lg{
+    font-size: 20px;
+}
+.text-16{
+    font-size: 16px;
+
+}
+.text-14{
+    font-size: 14px;
+}
+.text-12{
+    font-size: 12px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+
+/* 顯示方式（Display / Flex */
+.d-flex{
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+.d-none{
+    display: none;
+}
+.d-inline{
+    display: inline;
+}
+.d-inlineflex{
+    display: inline-flex;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+/* 排版樣式 */
+.justify-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+
+.fd-column{
+    flex-direction: column;
+}
+
+.gap-8{
+    gap: 8px;
+}
+.gap-16{
+    gap: 16px;
+}
+.gap-24{
+    gap: 16px;
+}
+
+@media (max-width:767px){
+  .m-md-0{
+    margin: 0px;
+  }  
+  .m-md-12{
+    margin: 12px;
+  }
+  .my-md-12{
+    margin: 12px 0px;
+}
+  .my-md-16{
+    margin: 16px 0px;
+}
+  .mt-md-16{
+    margin-top: 16px;
+  }
+  .mt-md-24{
+    margin-top: 24px;
+  }
+  .me-md-0{
+    margin-right: 0px;
+  }
+  .ms-md-12{
+    margin-left: 12px;
+  } 
+  .mb-md-4{
+    margin-bottom: 8px;
+}
+  .mb-md-8{
+    margin-bottom: 4px;
+  }
+  .mb-md-12{
+    margin-bottom: 12px;
+  }
+  .mb-md-16{
+    margin-bottom: 16px;
+  }
+  .mb-md-24{
+    margin-bottom: 24px;
+  }
+  .mb-md-32{
+    margin-bottom: 32px;
+  }
+  .ps-md-12{
+    padding-left: 12px;
+  } 
+  .p-md-12{
+    padding: 12px;
+  }
+  .p-md-0{
+    padding: 0px;
+  }
+  .pt-md-24{
+    padding-top: 24px;
+}
+  .pt-md-32{
+    padding-top: 32px;
+}
+  .pb-md-0{
+    padding-bottom: 0px;
+  }
+  .py-md-5{
+    padding: 5.5px 0px;
+}
+  .py-md-8{
+    padding: 8px 0px;
+}
+  .py-md-16{
+    padding: 16px 0px;
+  }
+  .py-md-32{
+    padding: 32px 0px;
+  }
+  .py-md-40{
+    padding: 40px 0px;
+  }
+  .d-md-none{
+    display: none;
+  }
+  .d-md-block{
+    display: block;
+  }
+  .flex-md-wrap{
+    flex-wrap: wrap;
+  }
+  .flex-md-nowrap{
+    flex-wrap: nowrap;
+  }
+  .display-md-1{
+    font-size:64px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+  .display-md-2{
+    font-size: 48px;
+    line-height:1.2 ;
+    font-weight: 700;
+}
+  .h2-md{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+  .h3-md{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .h4-md{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .h5-md{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+  .h6-md{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+  .label-md-sm{
+    font-weight: 500;
+    font-size: 14px;
+}
+  .text-md-md{
+    font-size: 16px;
+
+}
+    .d-md-flex{
+    display: flex;
+ }
+  .flex-md-column{
+    flex-direction: row-reverse;
+  }
+  .border-md-none{
+    border: none;
+  }
+  .over-flow-x-md-auto{
+    overflow-x: auto;
+  }
+  .align-md-center{
+    align-items: center;
+}
+  .justify-md-center{
+    justify-content: center;
+}
+  .text-md-center{
+    text-align: center;
+  }
+  .flex-md-column{
+    flex-direction: column;
+}
+  .gap-md-12{
+    gap: 12px 0px;
+}
+ .p-md-btn{
+    padding: 8px 16px;
+ }
+}
+@media (max-width:575px){
+  .d-sm-none{
+    display: none;
+  }
+  .d-sm-block{
+    display: block;
+  }
+
+
+}
