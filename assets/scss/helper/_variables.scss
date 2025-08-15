@@ -31,38 +31,3 @@
     $bg-opacity: 0.4;
 
 
-/* 文字通用樣式*/
-
-.text-primary{
-    color: $neutral-color-900;
-}
-.text-primary-400{
-    color: $primary-color-400;
-}
-.text-secondary{
-    color: $neutral-color-600;
-}
-.text-muted{
-    color: $neutral-color-500;
-}
-.text-highlight{
-    color: $primary-color-400;
-}
-.text-primary-300{
-    color: $primary-color-300;
-}
-.text-on-dark{
-    color: $neutral-color-white;
-}
-
-/*圓角通用樣式  */
-
-.border-radius-sm{
-    border-radius: $border-radius-sm;
-} 
-.border-radius-md{
-    border-radius: $border-radius-md;
-}
-.border-radius-rounded{
-    border-radius: $border-radius-rounded;
-}

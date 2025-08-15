@@ -1,3 +1,39 @@
+/* 文字通用樣式*/
+
+.text-primary{
+    color: $neutral-color-900;
+}
+.text-primary-400{
+    color: $primary-color-400;
+}
+.text-secondary{
+    color: $neutral-color-600;
+}
+.text-muted{
+    color: $neutral-color-500;
+}
+.text-highlight{
+    color: $primary-color-400;
+}
+.text-primary-300{
+    color: $primary-color-300;
+}
+.text-on-dark{
+    color: $neutral-color-white;
+}
+
+/*圓角通用樣式  */
+
+.border-radius-sm{
+    border-radius: $border-radius-sm;
+} 
+.border-radius-md{
+    border-radius: $border-radius-md;
+}
+.border-radius-rounded{
+    border-radius: $border-radius-rounded;
+}
+
 
 .mt-48{
     margin-top: 48px;
@@ -240,6 +276,15 @@
 .text-align-center{
     text-align: center;
 }
+@mixin img-hover-opacity( $opacity:0.8, $duration: 0.3s){
+  transition: opacity $duration ease;
+  &:hover {
+    opacity: $opacity;
+  }
+  &:active {
+    opacity: $opacity;
+  }
+}
 
 
 /* 顯示方式（Display / Flex */
@@ -290,6 +335,7 @@
 .gap-24{
     gap: 16px;
 }
+
 
 @media (max-width:767px){
   .m-md-0{
@@ -422,10 +468,11 @@
     font-size: 16px;
 
 }
-    .d-md-flex{
+  .d-md-flex{
     display: flex;
  }
-  .flex-md-column{
+ 
+  .flex-md-row-reverse{
     flex-direction: row-reverse;
   }
   .border-md-none{
@@ -433,6 +480,9 @@
   }
   .over-flow-x-md-auto{
     overflow-x: auto;
+  }
+  .overflow-x-md-hidden{
+    overflow-x: hidden;
   }
   .align-md-center{
     align-items: center;
@@ -442,6 +492,9 @@
 }
   .text-md-center{
     text-align: center;
+  }
+  .text-md-star{
+    text-align: start;
   }
   .flex-md-column{
     flex-direction: column;
